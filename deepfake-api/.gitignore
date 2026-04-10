@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Venv
+venv/
+.venv/
+env/
+
+# Models — too large for git, store in Drive or use Git LFS
+models/face_landmarker.task
+
+# Keep class names (small, needed for repo)
+!models/class_names.json
+
+# Temp files
+*.tmp
+*.log
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
