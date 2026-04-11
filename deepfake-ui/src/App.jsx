@@ -2,7 +2,7 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import axios from "axios";
 import "./index.css";
 
-const API = "http://localhost:8000";
+const API = meta.env.API_URL || "http://localhost:8000";
 
 function ConfidenceBar({ label, value, color }) {
   return (
